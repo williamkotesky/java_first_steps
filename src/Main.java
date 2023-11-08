@@ -1,4 +1,5 @@
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
 
@@ -51,6 +52,31 @@ public class Main {
 		System.out.println(r);
 		
 		
+		//input
+		Scanner sc = new Scanner(System.in);
+		//When sc is not necessary anymore, use sc.close()
+		
+		String input1;
+		
+		input1 = sc.next();
+		
+		System.out.println("Você digitou: "+ input1);
+		
+		
+		//integer number: nextInt()
+		//double number: nextDouble(), depends on the system language, for dots use Locale.setDefault before the sc attribution
+		//println uses the x.y format even with x,y input
+		//char: next().charAt(0): take the first string caractere (with the charAt(0))
+		
+		String input2;
+		int input3;
+		
+		input2 = sc.next();
+		input3 = sc.nextInt();  //same line input: consecutive next()
+		
+		System.out.println(input2 + " " + input3);
+		
+		sc.close();
 	}
 
 }
