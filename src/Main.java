@@ -76,6 +76,22 @@ public class Main {
 		
 		System.out.println(input2 + " " + input3);
 		
+		
+		//input - part2
+		//string input until next line : nextLine()
+		String input4 = sc.nextLine();
+		System.out.println(input4);
+		
+		//nextLine problem
+		int input5;
+		String input6, input7;
+		sc.nextLine();
+		input5 = sc.nextInt();
+		input6 = sc.nextLine();
+		input7 = sc.nextLine();
+		//If there's a input(not nextLine) before the first nextLine() will be necessary an extra nextLine() because the one that follows the nextInt will consume his enter
+		System.out.println(input5 + input6 +  input7);
+		
 		sc.close();
 	}
 
