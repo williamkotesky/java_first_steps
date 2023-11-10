@@ -136,6 +136,8 @@ public class SequentialStructure {
 		min = 0;
 		answer3 = (int) (Math.random()*(max - min + 1)) + min; // pega um numero "aleatorio" em um intervalo determinado
 		System.out.println(answer3);
+		
+		//condicional structure - same as javascript, skipped
 	}
 
 }
