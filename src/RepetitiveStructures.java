@@ -16,6 +16,8 @@ public class RepetitiveStructures {
 		}
 		sc.close();
 		System.out.println(sum);
+		// while keeps going while your condition is TRUE. Which means that if there as expression with
+		// || logical operator, if only one of the expression is TRUE then while will continue.
 		
 	}
 
