@@ -4,6 +4,7 @@ public class RepetitiveStructuresExercises {
 
 	public static void main(String[] args) {
 		/*
+		 while exercises
 		 1) Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha
 incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser
 impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.
@@ -60,7 +61,7 @@ um algoritmo para ler o tipo de combustível abastecido (codificado da seguinte 
 que seja válido). O programa será encerrado quando o código informado for o número 4. Deve ser escrito a
 mensagem: "MUITO OBRIGADO" e a quantidade de clientes que abasteceram cada tipo de combustível, conforme
 exemplo.
-		 */
+		 
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -105,6 +106,39 @@ exemplo.
 		System.out.println("Alcool: " + alcoholAmount);
 		System.out.println("Gasolina: " + gasolineAmount);
 		System.out.println("Diesel: " + dieselAmount);
+		*/
+		
+		//for exercises
+		
+		/*
+		 1)
+		 */
+		/*
+		 2)
+		 */
+		/*
+		 3)
+		 */
+		/*
+		 4)
+		 */
+		/*
+		 5)
+		 */
+		/*
+		 6)
+		 */
+		/*
+		 7)
+		 */
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

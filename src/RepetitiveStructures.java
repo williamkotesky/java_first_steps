@@ -6,7 +6,7 @@ public class RepetitiveStructures {
 		// while
 		Scanner sc =  new Scanner(System.in);
 		
-		int x, sum;
+		/*int x, sum;
 		sum = 0;
 		x = sc.nextInt();
 		
@@ -15,9 +15,27 @@ public class RepetitiveStructures {
 			x = sc.nextInt();
 		}
 		sc.close();
-		System.out.println(sum);
+		System.out.println(sum);*/
 		// while keeps going while your condition is TRUE. Which means that if there as expression with
 		// || logical operator, if only one of the expression is TRUE then while will continue.
+		
+		//for
+		
+		int n, sum2, number;
+		sum2 = 0;
+		
+		n = sc.nextInt();
+		
+		for(int i = 0; i < n; i++) {
+			number = sc.nextInt();
+			sum2 += number;
+		}
+		sc.close();
+		System.out.println(sum2);
+		
+		//its good to declare the "i" on the for because it will only exists in the execution for time
+		
+		
 		
 	}
 
