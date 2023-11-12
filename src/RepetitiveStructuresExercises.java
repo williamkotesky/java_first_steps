@@ -1,4 +1,4 @@
-import java.util.Locale;
+//import java.util.Locale;
 import java.util.Scanner;
 
 public class RepetitiveStructuresExercises {
@@ -178,26 +178,75 @@ peso 5.
 		/*
 		 4) Fazer um programa para ler um número N. Depois leia N pares de números e mostre a divisão do primeiro pelo
 segundo. Se o denominador for igual a zero, mostrar a mensagem "divisao impossivel".
-		 */
+		 
 		
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		int n = sc.nextInt();
+		int a,b;
+		double q;
 		
-		
-		
+		for(int i = 0; i < n; i++) {
+			a = sc.nextInt();
+			b = sc.nextInt();
+			if(b == 0 ) {
+				System.out.println("Divisao impossivel");
+			} else {
+				q = (double) a/b;
+				System.out.printf("%.1f%n", q);
+			}
+		}
+		sc.close();
+		*/
 		
 		/*
 		 5) Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N * (N-1) * (N-2) * (N-3) * ... * 1.
 Lembrando que, por definição, fatorial de 0 é 1.
-		 */
+		 
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int product = 1;
+		int n = sc.nextInt();
+		sc.close();
+		
+		if(n == 0) {
+			System.out.println(product);
+		} else {
+			for(int i = 0; i < n; i++) {
+				product *= i+1;
+			}
+			System.out.println(product);
+		}
+		*/
+		
 		/*
 		 6) Ler um número inteiro N e calcular todos os seus divisores.
-		 */
+		 
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		sc.close();
+		
+		for(int i = 0; i < n; i++) {
+			if(n%(i+1) == 0) System.out.println(i+1);
+		}
+		*/
+		
 		/*
 		 7) Fazer um programa para ler um número inteiro positivo N. O programa deve então mostrar na tela N linhas,
 começando de 1 até N. Para cada linha, mostrar o número da linha, depois o quadrado e o cubo do valor, conforme
 exemplo.
 		 */
 		
+		Scanner sc = new Scanner(System.in);
 		
+		int n = sc.nextInt();
+		sc.close();
+		
+		for(int i = 0; i < n; i++) {
+			System.out.printf("%d %d %d%n", i+1, (int) Math.pow(i+1, 2), (int) Math.pow(i+1, 3));
+		}
 		
 		
 		
