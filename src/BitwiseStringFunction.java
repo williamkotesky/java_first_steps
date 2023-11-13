@@ -86,17 +86,52 @@ public class BitwiseStringFunction {
 		
 		//string1.length() return = int
 		//return the size of the strings, how many caracteres it have
+		/*
+		 * String string1 = "William"; System.out.println(string1.length());
+		 */
 		
-		String string1 = "William";
-		System.out.println(string1.length());
+		//string1.replace('l', 'p') return = new string with caracters replaced;
+		//works replacing strings too, no just char
+		/*
+		 * String string1 = "Hello"; System.out.println(string1.replace('l', 'p'));
+		 */
 		
+		//string1.split(" ") return = string array
+		//parameter: what will be used to split the array in the small parts
+		/*
+		 * // String string1 = "Hello world, good afternoon!"; // String[] splited =
+		 * string1.split(" "); // for(String word: splited) { //
+		 * System.out.println(word); // }
+		 */		
 		
+		//string1.substring(startIndex) | string1.substring(finalIndex) return = string
+		//cuts a piece of string from one
+		/*
+		 * String string1 = "Hello big world!";
+		 * System.out.println(string1.substring(6)); //doesn't take the 6, but 5
+		 * System.out.println(string1.substring(6,9));
+		 */
 		
+		//string1.toLowerCase() | string1.toUpperCase return = string;	
+		/*
+		 * String string1 = "hello"; System.out.println(string1.toUpperCase()); string1
+		 * = "WORLD"; System.out.println(string1.toLowerCase());
+		 */
 		
+		//string1.trim() return = copy of the string
+		//removes blanspace at start and end of a string, creatin a copy
+		/*
+		 * String string1 = "    Hello    "; System.out.println(string1);
+		 * System.out.println(string1.trim());
+		 */
 		
-		
-		
-		
+		//String.valueOf(int1) return = string
+		//IT A STATIC METHOD
+		//converts a value like a int in string
+		int int1 = 25;
+		System.out.println(int1);
+		String string1 = String.valueOf(int1);
+		System.out.println(string1 instanceof String); //true
 	}
 
 }
