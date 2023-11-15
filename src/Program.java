@@ -24,11 +24,8 @@ public class Program {
 		y.c = sc.nextDouble();
 		sc.close();
 		
-		double p = (x.a + x.b + x.c)/2.0;
-		double areaX = Math.sqrt(p*(p-x.a)*(p-x.b)*(p-x.c));
-		
-		p = (y.a + y.b + y.c)/2.0;
-		double areaY = Math.sqrt(p*(p-y.a)*(p-y.b)*(p-y.c));
+		double areaX = x.area();
+		double areaY = y.area();
 		
 		System.out.printf("Triangle X area: %.4f%n", areaX);
 		System.out.printf("Triangle Y area: %.4f%n", areaY);
@@ -39,6 +36,9 @@ public class Program {
 			System.out.println("Larger Area: Triangle Y");
 		}
 		
+		//static variables (areaX, areaY, p, etc) are save in the Stack area, for static variables.
+		//dynamic memory allocation: during program execution a instance with "new" word is saved in a area called Heap
+		// when Triangle x, what is is stored in x is a memory adress for instance made in Heap
 	}
 
 }
