@@ -8,6 +8,8 @@ public class StaticMembers {
 		//they dont need an object to be called, just the name of the class
 		//e.g. Math.sqrt and
 		//a class that just has static members is statics and its impossible create instances through it
+		//static 2
+	
 	}
 
 }
