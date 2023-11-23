@@ -26,6 +26,8 @@ public class StaticMembers {
 		System.out.println("How many dollars will be bought?");
 		double dollarAmount = sc.nextDouble();
 		
+		sc.close();
+		
 		double reaisAmount = CurrencyConverter.dollarReaisConverter(dollarPrice, dollarAmount);
 		
 		System.out.println("Amount to be paid in reais:");
